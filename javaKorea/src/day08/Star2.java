@@ -3,7 +3,7 @@ package day08;
 //구현 기준을 제공하기 위한 상속용
 public interface Star2 {
 	int price=0;
-	String menu=null;
+	public static final String menu=null;
 	int index=0;
 	//static : 멤버지역 변수를 전역변수처럼 취급 (전역변수 : 해당함수 또는 클래스가 끝나고 계속 남아있음)
 	//final : 값 변경이 불가능
