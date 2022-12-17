@@ -37,7 +37,7 @@ class MyDB1{
 	// 연결
 	private static final String USERNAME = "root";	// static : 전역변수 // final : 한번 정하면 바꿀 수 없음
 	private static final String PASSWORD = "root";
-	private static final String URL = "jdbc.mysql://localhost:3306/company";	// 스키마명 (테이블명X)
+	private static final String URL = "jdbc:mysql://localhost:3306/company";	// 스키마명 (테이블명X)
 
 	// DB라이브러리 실행
 	public MyDB1() {
